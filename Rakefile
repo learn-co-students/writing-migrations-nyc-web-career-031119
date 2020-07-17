@@ -1,4 +1,7 @@
 require 'active_record'
+# require_relative '.db/migrate/01_create_students.rb'
+# require_relative '.db/migrate/02_add_grade_and_birthdate_to_students.rb'
+# require_relative '.db/migrate/03_change_datatype_for_birthdate.rb'
 include ActiveRecord::Tasks
 
 DatabaseTasks.db_dir = 'db'
